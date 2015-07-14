@@ -261,13 +261,19 @@ form {
     form collection rendering
 */
 .form-definitions {
+    list-style-type: none;
+    margin-left: 0;
+
     .form-definition-title {
         font-weight: bold;
     }
 
     .form-definition-lead {
-        margin-bottom: .2em;
+        border-bottom: 1px solid $table-border-color;
+        color: $monsoon;
+        margin-bottom: 1rem;
         max-width: 500px;
+        padding-bottom: 1rem;
     }
 }
 
